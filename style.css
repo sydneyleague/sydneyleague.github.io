@@ -104,7 +104,6 @@
 	height: 100%;
 	z-index: -10;
 	transform: translate(-50%, -50%);
-	transition: height 1s;
 	}
 	
 	.sydl-logo {
@@ -143,12 +142,35 @@
 	text-align: center;
 	text-transform: uppercase;
 	}
+
+	.links {
+	width: 760px;
+	height: auto;
+	margin: auto;
+	top: 250px;
+	position: relative;
+	font-family: 'Apercu Mono', monospace;
+	font-weight: 400;
+	font-size: 14px;
+	color: #fff;
+	}
+	
+	.links-table {
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+	}
+	
+	.links-table td {
+	text-decoration: underline;
+	text-align: center;
+	}
 	
 	.teams {
 	width: 960px;
 	height: 1230px;
 	margin: 0;
-	top: 300px;
+	top: 320px;
 	position: relative;
 	background-color: rgba(255, 255, 255, 0.45);
 	}
@@ -157,7 +179,7 @@
 	width: 960px;
 	height: 108px;
 	margin: 0;
-	top: 300px;
+	top: 320px;
 	position: relative;
 	background-color: rgba(255, 255, 255, 0.45);
 	}
@@ -169,11 +191,24 @@
 	box-sizing: border-box;         /* Opera/IE 8+ */
 	}
 	
-	.m12 {
+	.mt12 {
 	margin-top: 120px;
 	}
 	
+	.mt35 {
+	margin-top: 35px;
+	}
+	
+	.ml35 {
+	margin-left: 35px;
+	}
+	
+	.ml4 {
+	margin-left: 40px;
+	}
+	
 	.team-profile {
+	float: left;
 	width: 270px;
 	height: 360px;
 	position: relative;
@@ -185,12 +220,62 @@
 	width: 960px;
 	height: auto;
 	margin: 0;
-	top: 300px;
+	top: 320px;
 	display: block;
 	position: relative;
 	background-color: rgba(255, 255, 255, 0.45);
 	}
+	
+	.group-standings {
+	width: 960px;
+	height: auto;
+	display: block;
+	margin: 0;
+	padding-bottom: 25px;
+	top: 320px;
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.2);
+	}
+	
+	.group-standings-container {
+	width: 960px;
+	height: auto;
+	display: table;
+	padding: 25px 40px 40px 40px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	}
+	
+	.group-standings-table {
+	float: left;
+	width: 420px;
+	table-layout: fixed;
+	border-collapse: collapse;
+	font-family: 'Apercu Mono', monospace;
+	font-weight: 400;
+	font-size: 12px;
+	color: #fff;
+	}
+	
+	.group-standings-table th {
+	padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+	font-weight: 400;
+	}
 
+	.group-standings-table td {
+	padding: 25px 0 25px 0;
+	}
+	
+	.group-standings-table th, td {
+	text-align: left;
+	}
+
+	.group-standings-pos {
+	width: 15%;
+	}
+	
 /** type **/
 
 	h2 {
@@ -221,7 +306,7 @@
 	position: relative;
 	top: 220px;
 	display: block;
-	font-family: 'Apercu Mono', monospaced;
+	font-family: 'Apercu Mono', monospace;
 	font-weight: 400;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -235,7 +320,7 @@
 	position: relative;
 	width: 200px;
 	top: 240px;
-	font-family: 'Apercu Mono', monospaced;
+	font-family: 'Apercu Mono', monospace;
 	font-weight: 400;
 	font-size: 12px;
 	color: #fff;
@@ -256,7 +341,7 @@
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
 	text-align: left;
-	font-family: 'Apercu Mono', monospaced;
+	font-family: 'Apercu Mono', monospace;
 	font-weight: 400;
 	font-size: 12px;
 	color: #fff;
