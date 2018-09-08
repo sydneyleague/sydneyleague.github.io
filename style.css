@@ -17,7 +17,7 @@
 	}
 	
 	video.fullscreen-bg {
-	object-fit: cover;
+	object-fit: fill;
 	}
 	
 	@media (min-aspect-ratio: 16/9) {
