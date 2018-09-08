@@ -12,7 +12,7 @@
 $(function(){
 
   var $w = $(window),
-      $background = $('.fullscreen-bg');
+      $background = $('#background');
 
   // Fix background image jump on mobile
   if ((/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
@@ -33,7 +33,7 @@ $(function(){
 <body>
 
 
-<div>
+<div id="background">
 	<video loop muted autoplay class="fullscreen-bg">
 		<source src="nuke.webm" type="video/webm">
 	</video>
