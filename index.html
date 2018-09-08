@@ -8,25 +8,6 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <title>Sydney League » Pro League 2018</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-$(function(){
-
-  var $w = $(window),
-      $background = $('.fullscreen-bg');
-
-  // Fix background image jump on mobile
-  if ((/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
-    $background.css({'top': 'auto', 'bottom': 0});
-
-    $w.resize(sizeBackground);
-    sizeBackground();
-  }
-
-  function sizeBackground() {
-     $background.height(screen.height);
-  }
-});
-</script>
 </head>
 
 
