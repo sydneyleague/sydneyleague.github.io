@@ -15,6 +15,10 @@
 	height: 100%;
 	}
 	
+	video.fullscreen-bg {
+	object-fit: fill;
+	}
+	
 	div {
 	display: block;
 	margin: auto;
