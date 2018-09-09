@@ -287,6 +287,20 @@
 	letter-spacing: 1px;
 	}
 	
+	a.link {
+	text-decoration: underline;
+	color: #fff;
+	}
+	
+	a.link:hover {
+	text-decoration: underline;
+	color: #FF1659;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+	}
+	
 	.team-name {
 	margin: auto;
 	position: relative;
